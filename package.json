@@ -1,0 +1,19 @@
+{
+  "name": "is-singular",
+  "version": "0.0.0",
+  "description": "Return true if given word is in singular form like `apple`, `car`, `test` and etc.",
+  "repository": "tunnckoCore/is-singular",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "pluralize": "^1.1.2"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  },
+  "keywords": []
+}
