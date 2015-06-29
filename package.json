@@ -10,10 +10,28 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "pluralize": "^1.1.2"
+    "pluralize": "~1.1.2"
   },
   "devDependencies": {
     "assertit": "^0.1.0"
   },
-  "keywords": []
+  "keywords": [
+    "check",
+    "english",
+    "form",
+    "grammar",
+    "inflect",
+    "lang",
+    "language",
+    "plural",
+    "pluralize",
+    "singular",
+    "singularize",
+    "test",
+    "tool",
+    "util",
+    "validate",
+    "word",
+    "words"
+  ]
 }
