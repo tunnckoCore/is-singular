@@ -17,11 +17,26 @@ npm test
 
 ```js
 var isSingular = require('is-singular')
+
+isSingular('car')  //=> true
+isSingular('cars') //=> false
+
+isSingular(123) //=> false
+isSingular({a: 'b'}) //=> false
 ```
 
 
-## Contributing
+## Related
+- [detect-installed](https://github.com/tunnckoCore/detect-installed): Checks that given package name is installed locally (in current… [more](https://github.com/tunnckoCore/detect-installed)
+- [is-plural](https://github.com/jonschlinkert/is-plural): Returns true if the given english word is pluralized.
+- [is-missing](https://github.com/tunnckocore/is-missing): Check that given `name` or `user/repo` exists in npm registry… [more](https://github.com/tunnckocore/is-missing)
+- [is-installed](https://github.com/tunnckoCore/is-installed): Checks that given package is installed on the system -… [more](https://github.com/tunnckoCore/is-installed)
+- [is-kindof](https://github.com/tunnckocore/is-kindof): Check type of given javascript value. Support promises, generators, streams,… [more](https://github.com/tunnckocore/is-kindof)
+- [is-ansi](https://github.com/tunnckocore/is-ansi): Check that given string contain ANSI color codes, without CLI
+- [pluralize](https://github.com/blakeembrey/pluralize): Pluralize and singularize any word
 
+
+## Contributing
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/tunnckoCore/is-singular/issues/new).  
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
 
