@@ -1,7 +1,7 @@
 {
   "name": "is-singular",
   "version": "0.0.0",
-  "description": "Return true if given word is in singular form like `apple`, `car`, `test` and etc.",
+  "description": "Return true if given word is in singular form like `apple`, `car`, `test` and false otherwise, never throws.",
   "repository": "tunnckoCore/is-singular",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
   "main": "index.js",
