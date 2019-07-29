@@ -15,4 +15,4 @@ module.exports = function isSingular (word) {
   }
 
   return pluralize.isSingular(word)
-};
+}
