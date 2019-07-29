@@ -14,5 +14,5 @@ module.exports = function isSingular (word) {
     return false
   }
 
-  return word === pluralize(word, 1)
+  return pluralize.isSingular(word)
 }
