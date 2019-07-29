@@ -9,4 +9,4 @@
 
 var pluralize = require('pluralize')
 
-module.exports = pluralize.isSingular;
+module.exports = pluralize.isSingular

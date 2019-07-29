@@ -28,7 +28,7 @@ test('is-singular:', function () {
   test('should return false if not a string given', function (done) {
     test.equal(isSingular(123), false)
     test.equal(isSingular([1, 2]), false)
-    test.equal(isSingular({a: 'b'}), false)
+    test.equal(isSingular({ a: 'b' }), false)
     done()
   })
 })
