@@ -9,4 +9,10 @@
 
 var pluralize = require('pluralize')
 
-module.exports = pluralize.isSingular
+module.exports = function isSingular (word) {
+  if (typeof word !== 'string') {
+    return false
+  }
+
+  return pluralize.isSingular(word)
+};
